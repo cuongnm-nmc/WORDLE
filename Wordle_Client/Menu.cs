@@ -20,12 +20,13 @@ namespace Wordle
         private void btnPlay_Click(object sender, EventArgs e)
         {
             GameUI GameJoin = new GameUI();
-            GameJoin.ShowDialog();
+            GameJoin.Show();
         }
 
         private void btnHowToPlay_Click(object sender, EventArgs e)
         {
-            
+            Howtoplay howtoplay = new Howtoplay();
+            howtoplay.Show();
         }
 
         private void btnExit_Click(object sender, EventArgs e)

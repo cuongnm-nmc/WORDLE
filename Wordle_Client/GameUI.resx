@@ -1216,13 +1216,13 @@
     <value>160, 94</value>
   </data>
   <data name="lblTimer.Size" type="System.Drawing.Size, System.Drawing">
-    <value>53, 36</value>
+    <value>72, 36</value>
   </data>
   <data name="lblTimer.TabIndex" type="System.Int32, mscorlib">
     <value>31</value>
   </data>
   <data name="lblTimer.Text" xml:space="preserve">
-    <value>60</value>
+    <value>150</value>
   </data>
   <data name="&gt;&gt;lblTimer.Name" xml:space="preserve">
     <value>lblTimer</value>

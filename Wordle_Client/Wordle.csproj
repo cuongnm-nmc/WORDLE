@@ -52,6 +52,12 @@
     <Compile Include="GameUI.Designer.cs">
       <DependentUpon>GameUI.cs</DependentUpon>
     </Compile>
+    <Compile Include="Howtoplay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Howtoplay.Designer.cs">
+      <DependentUpon>Howtoplay.cs</DependentUpon>
+    </Compile>
     <Compile Include="Menu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -65,6 +71,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="GameUI.sv-SE.resx">
       <DependentUpon>GameUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Howtoplay.resx">
+      <DependentUpon>Howtoplay.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Menu.resx">
       <DependentUpon>Menu.cs</DependentUpon>

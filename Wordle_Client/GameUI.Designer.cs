@@ -78,10 +78,10 @@ namespace Wordle
             this.textBoxName = new System.Windows.Forms.TextBox();
             this.btnConnect = new System.Windows.Forms.Button();
             this.btnGameUI = new System.Windows.Forms.Button();
+            this.btnExit = new System.Windows.Forms.Button();
             this.btnReady = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.labelName = new System.Windows.Forms.Label();
-            this.btnExit = new System.Windows.Forms.Button();
             this.groupJoin.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -530,6 +530,15 @@ namespace Wordle
             this.btnGameUI.UseVisualStyleBackColor = false;
             this.btnGameUI.Click += new System.EventHandler(this.btnGameUI_Click);
             // 
+            // btnExit
+            // 
+            this.btnExit.BackColor = System.Drawing.Color.Gray;
+            resources.ApplyResources(this.btnExit, "btnExit");
+            this.btnExit.ForeColor = System.Drawing.Color.White;
+            this.btnExit.Name = "btnExit";
+            this.btnExit.UseVisualStyleBackColor = false;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
+            // 
             // btnReady
             // 
             this.btnReady.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(196)))), ((int)(((byte)(37)))));
@@ -550,15 +559,6 @@ namespace Wordle
             this.labelName.BackColor = System.Drawing.Color.White;
             this.labelName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(145)))), ((int)(((byte)(1)))));
             this.labelName.Name = "labelName";
-            // 
-            // btnExit
-            // 
-            this.btnExit.BackColor = System.Drawing.Color.Gray;
-            resources.ApplyResources(this.btnExit, "btnExit");
-            this.btnExit.ForeColor = System.Drawing.Color.White;
-            this.btnExit.Name = "btnExit";
-            this.btnExit.UseVisualStyleBackColor = false;
-            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // GameUI
             // 
